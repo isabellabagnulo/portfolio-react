@@ -1,0 +1,75 @@
+@import "../common.scss";
+
+.single{
+    background-color: $black;
+    color: $white;
+    .work-header{
+        .work-info{
+            display: flex;
+            justify-content: space-between;
+            margin: -10px -20px;
+            .single-info{
+                padding: 10px 20px;
+                h4{
+                    font-size: 0.75rem;
+                    font-weight: 600;
+                    padding-bottom: 5px
+                }
+                p{
+                    font-size: 1rem;
+                    line-height: normal;
+                }
+            }
+        }
+        .cover{
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+    .work-description{
+        p{
+            padding: 10px 0;
+        }
+    }
+
+    .container-buttons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 20px 0 20px;
+    }
+    
+}
+
+@media(min-width: 1000px){
+    .single{
+        .work-header{
+            display: grid;
+            grid-template-columns: 2fr 5fr;
+            padding-bottom: 50px;
+            .swiper{
+                min-width: 0;
+                width: 100%;
+                height: auto;
+                .swiper-slide {
+                    width:auto;
+                    height:auto;
+                    img{
+                        width:100%;
+                        height:auto;
+                    }
+                }
+            }
+            .work-info{
+                flex-direction: column;
+                justify-content: flex-start;
+                .single-info{
+                    margin: 10px 0;
+                }
+            }
+            img{
+                padding-top: 0;
+            }
+        }
+    }
+}

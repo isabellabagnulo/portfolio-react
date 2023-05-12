@@ -1,0 +1,76 @@
+{
+  "about": {
+    "skills": [
+      {
+        "name": "HTML",
+        "icon": "html.png"
+      },
+      {
+        "name": "CSS",
+        "icon": "css.png"
+      },
+      {
+        "name": "SASS",
+        "icon": "sass.png"
+      },
+      {
+        "name": "Javascript",
+        "icon": "javascript.png"
+      },
+      {
+        "name": "Typescript",
+        "icon": "typescript.png"
+      },
+      {
+        "name": "Git",
+        "icon": "git.png"
+      },
+      {
+        "name": "React",
+        "icon": "react.png"
+      },
+      {
+        "name": "Redux",
+        "icon": "redux.png"
+      },
+      {
+        "name": "Angular",
+        "icon": "angular.png"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.png"
+      },
+      {
+        "name": "PHP",
+        "icon": "php.png"
+      },
+      {
+        "name": "Python",
+        "icon": "python.png"
+      },
+      {
+        "name": "Wordpress",
+        "icon": "wordpress.png"
+      }
+    ],
+    "software": [
+      {
+        "name": "Figma",
+        "icon": "figma.png"
+      },
+      {
+        "name": "Illustrator",
+        "icon": "adobe_illustrator.png"
+      },
+      {
+        "name": "Photoshop",
+        "icon": "adobe_photoshop.png"
+      },
+      {
+        "name": "Indesign",
+        "icon": "adobe_indesign.png"
+      }
+    ]
+  }
+}

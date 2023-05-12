@@ -1,0 +1,52 @@
+{
+  "works": [
+    {
+      "id": 1,
+      "name": "Arket",
+      "year": "2020",
+      "role": ["Graphic designer", "Web developer"],
+      "members": [
+        {
+          "name": "Victoria Ferrari",
+          "url": ""
+        },
+        {
+          "name": "Carolina Cristino",
+          "url": ""
+        }
+      ],
+      "tools": ["HTML", "CSS"],
+      "description": [
+        "Arket is an online marketplace where artisans and customers can get in touch with each other, to create, sell, buy and collect unique items.",
+        "On the occasion of the theme that was proposed to us, the boundary, we adopted the idea of Serge Latouche, a supporter of the degrowth economics. A critic of the capitalist economic system, which ignores all kinds of boundaries in the name of immense growth. The economist therefore proposes an alternative system that wants to engage in local and autochthonous productive exchange.",
+        "For this last aspect, through the contemporary technological means, we tried to do our part by putting the artisans in contact with the customers.",
+        "We, therefore, propose ourselves as a window between the physical world and the digital one."
+      ],
+      "cover": "arket.webp",
+      "link": "https://isabellabagnulo.github.io/arket/"
+    },
+
+    {
+      "id": 2,
+      "name": "Foodie",
+      "year": "2021",
+      "role": ["UI designer"],
+      "members": [
+        {
+          "name": "Victoria Ferrari",
+          "url": ""
+        },
+        {
+          "name": "Niccolò Maffioli",
+          "url": ""
+        }
+      ],
+      "tools": ["Figma"],
+      "description": [
+        "Foodie is an innovative app to finally eliminate food waste. It allows you to always have memory of food in the pantry and of expiry dates, proposing ad hoc recipes based on your preferences/ dietary needs to finish up the perishing ingredients. It also allows you to add to your shopping list the used up ingredients."
+      ],
+      "cover": "foodie.webp",
+      "link": "https://www.behance.net/gallery/129309527/Foodie"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+@import "../common.scss";
+
+// ---------------------------------- ABOUT ----------------------------------
+.about{
+    background-color: $white;
+    color: $black;
+    section{
+        padding: 25px 0;
+        &:first-child{
+            padding-top: 0;
+        }
+    }
+
+    .education{
+        border-left: 0.5px solid $black;
+        .ed-card{
+            padding: 25px 25px 0 25px;
+            position: relative;
+            h3{
+                font-size: 1.5rem;
+                color: $pink;
+                font-weight: 600;
+            }
+            h4{
+                font-size: 1.25rem;
+                font-weight: 500;
+            }
+            .lh-100{
+                line-height: 100%;
+                padding: 5px 0;
+            }
+            &:before{
+                content: "";
+                position: absolute;
+                top: 45%;
+                left: -6.5px;
+                width: 10px;
+                height: 10px;
+                border: 1px solid $black;
+                background: $white;
+                border-radius: 100%;
+            }
+        }
+    }
+
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        .single-skill{
+            display: grid;
+            grid-template-rows: 3fr 1fr;
+            align-items: center;
+            justify-items: center;
+            .skill-name{
+                padding-top: 10px;
+                text-transform: uppercase;
+                font-size: 0.75rem;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+@media(min-width: 700px){
+    .about{
+        .skills-container{
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
+
+@media(min-width: 1050px){
+    .about{
+        section{
+            padding: 50px 0;
+        }
+        .education{
+            text-align: center;
+            border-top: 0.5px solid $black;
+            border-left: none;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            .ed-card{
+                &:before{
+                    top: -6.5px;
+                    left: 45%;
+                }
+            }
+        }
+        .skills-container{
+            grid-template-columns: repeat(6, 1fr);
+        }
+    }
+}
+
+@media(min-width: 1300px){
+    .about{
+        .skills-container{
+            grid-template-columns: repeat(8, 1fr);
+        }
+    }
+}
